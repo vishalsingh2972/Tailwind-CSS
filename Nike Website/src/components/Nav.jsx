@@ -9,25 +9,41 @@ const Nav = () => {
         <a href="/">
           <img 
             src={headerLogo}
-            alt="Logo"
+            alt="Hamara Logo"
             width={130}
-            height={29}/>
+            height={29}
+          />
         </a>
+
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className="font-montserrat leading-normal text-lg text-slate-gray">
+              <a
+              href={item.href}
+              className="font-montserrat leading-normal text-lg text-red-500"
+              >
                 {item.label}
               </a>
-            </li> 
+            </li>
           ))}
-          
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Products</li>
-          <li>Contact Us</li>
-        </ul>
-        {/* <div>hamburger logo</div> */}     
+
+
+
+
+{/* Direct way via links
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about-us">About Us</a>
+          </li>
+          <li>
+            <a href="/products">Products</a>
+          </li>
+          <li>
+            <a href="/contact-us">Contact Us</a>
+          </li>       */}
+        </ul>  
       </nav>
     </header>
   )
