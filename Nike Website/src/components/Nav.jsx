@@ -9,7 +9,7 @@ const Nav = () => {
         <a href="/">
           <img 
             src={headerLogo}
-            alt="Hamara Logo"
+            alt="Hamara Nike Logo"
             width={130}
             height={29}
           />
@@ -27,9 +27,6 @@ const Nav = () => {
             </li>
           ))}
 
-
-
-
 {/* Direct way via links
           <li>
             <a href="/">Home</a>
@@ -43,7 +40,16 @@ const Nav = () => {
           <li>
             <a href="/contact-us">Contact Us</a>
           </li>       */}
-        </ul>  
+        </ul>
+
+        <div className="hidden max-lg:block">
+          <img 
+            src={hamburger}
+            alt="3 dash wala Logo"
+            width={25}
+            height={25}
+          />  
+        </div>  
       </nav>
     </header>
   )
