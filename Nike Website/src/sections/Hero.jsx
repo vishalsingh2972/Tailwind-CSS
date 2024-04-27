@@ -22,7 +22,7 @@ const Hero = () => {
 
         <p className="font-montserrat text-slate-gray text-lg mt-6 mb-16 sm:max-w-sm">Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
 
-        <Button label="Shop now" iconURL={arrowRight}/>
+        <Button label="Shop now ji" iconURL={arrowRight}/>
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat) => (
@@ -47,9 +47,15 @@ const Hero = () => {
       <div>
         {shoes.map((shoe) => (
           <div key={shoe}>
-            <ShoeCard/>
+            <ShoeCard
+              imgURL={shoe}
+              changeBigShoeImage={() => {}}
+              bigShoeImage=""
+            />
+            bittu
           </div>
         ))}
+        monu
       </div>
     </section>
   )

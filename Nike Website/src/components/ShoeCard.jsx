@@ -1,6 +1,6 @@
 const ShoeCard = () => {
   return (
-    <div>radhe</div>
+    <div>Krishna's feet</div>
   )
 }
 
