@@ -52,10 +52,8 @@ const Hero = () => {
               changeBigShoeImage={() => {}}
               bigShoeImage=""
             />
-            bittu
           </div>
         ))}
-        monu
       </div>
     </section>
   )

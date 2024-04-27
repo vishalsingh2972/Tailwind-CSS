@@ -1,6 +1,8 @@
-const ShoeCard = () => {
+const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImage}) => {
   return (
-    <div>Krishna's feet</div>
+    <div className="border-2 rounded-xl">
+      Krishna's feet
+    </div>
   )
 }
 
