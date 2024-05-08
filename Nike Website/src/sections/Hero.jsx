@@ -34,17 +34,25 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-centre">
-        <img
-          src={bigShoe1}
-          alt="shoe collection"
-          width={600}
-          height={500}
-          className="object-contain relative z-10"
-        />
-      </div>
+        <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-centre">
+          <img
+            src={bigShoe1}
+            alt="shoe collection"
+            width={600}
+            height={500}
+            className="object-contain relative z-10"
+          />
+        </div>
 
-      <div>
+        <div>
+          {shoes.map((shoe) => (
+            <div key={shoe}>
+                <ShoeCard/>
+            </div>
+          ))}
+        </div>
+
+        {/* <div>
         {shoes.map((shoe) => (
           <div key={shoe}>
             <ShoeCard
@@ -54,7 +62,9 @@ const Hero = () => {
             />
           </div>
         ))}
-      </div>
+      </div>   */}
+
+
     </section>
   )
 }
