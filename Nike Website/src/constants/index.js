@@ -34,21 +34,25 @@ export const products = [
         imgURL: shoe4,
         name: "Nike Air Force 1",
         price: "$500.50",
+        rating: "4.1"
     },
     {
         imgURL: shoe5,
         name: "Nike Blazer",
         price: "$400.40",
+        rating: "4.2"
     },
     {
         imgURL: shoe6,
         name: "Nike Air Max 1",
         price: "$300.30",
+        rating: "4.3"
     },
     {
         imgURL: shoe7,
         name: "Nike Dunk",
         price: "$200.20",
+        rating: "4.4"
     },
 ];
 
