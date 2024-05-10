@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full border-red-500 border-2 p-2 flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className="w-full border-white border-2 p-2 flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative xl:w-2/5 flex-col justify-center items-start padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">Our Summer collections</p>
