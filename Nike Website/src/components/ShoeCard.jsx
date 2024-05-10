@@ -1,4 +1,3 @@
-
 const ShoeCard = ({imgURL, changeBigShoeImage, bigShoeImage}) => {
   
   const handleClick = () => {
