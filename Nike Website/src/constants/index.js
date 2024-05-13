@@ -85,7 +85,7 @@ export const reviews = [
         imgURL: customer2,
         customerName: 'Deepika Padukone',
         rating: 4.2,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Yeh cheez meri ummeedon ko sirf poora nahi kiya, balki unse bhi aage nikal gaya. Main zaroor wapas aungi, yeh mera waada hai!"
     }
 ];
 
