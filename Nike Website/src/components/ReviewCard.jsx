@@ -1,6 +1,6 @@
 const ReviewCard = () => {
   return (
-    <div> Hare Krishna</div>
+    <div>Hare Krishna</div>
   )
 }
 
