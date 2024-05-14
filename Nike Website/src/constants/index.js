@@ -79,13 +79,13 @@ export const reviews = [
         imgURL: customer1,
         customerName: 'Shahrukh Khan',
         rating: 4.7,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "The attention to detail was like Anjali, and the quality? Iski toh main baat hi nahin karoonga, it speaks for itself, just like Kuch Kuch Hota Hai!"
     },
     {
         imgURL: customer2,
         customerName: 'Deepika Padukone',
         rating: 4.2,
-        feedback: "Yeh cheez meri ummeedon ko sirf poora nahi kiya, balki unse bhi aage nikal gaya. Main zaroor wapas aungi, yeh mera waada hai!"
+        feedback: "This product wasn't just a victory, it was a conquest! It stole my heart like Bajirao in a battlefield. Be prepared, for this Mastani shall return for more!"
     }
 ];
 
